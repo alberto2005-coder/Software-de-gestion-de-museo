@@ -1,0 +1,67 @@
+@startuml diagramaclases
+class InventarioMuseo {
+  - JFrame frame
+  - JTable tablaObjetos
+  - DefaultTableModel modeloTabla
+  - JTextField txtBuscar
+
+  + main(String[]): void
+  + actualizarTabla(): void
+  + actualizarTablaFiltrada(String): void
+  + mostrarDialogo(Objeto): void
+  + editarSeleccionado(): void
+  + eliminarPorNombre(): void
+}
+
+class Datos {
+  + Objeto[] objetos
+  + Categoria[] categorias
+  + Ubicacion[] ubicaciones
+  + int(500) MAX_OBJETOS
+  + int(50) MAX_CATEGORIAS
+  + int(100) MAX_UBICACIONES
+  + int(0) contadorObjetos
+  + int(0) contadorCategorias
+  + int(0) contadorUbicaciones
+  - String(categorias.txt) ARCHIVO_CATEGORIAS
+  - String(ubicaciones.txt) ARCHIVO_UBICACIONES
+  - String(objetos.txt) ARCHIVO_OBJETOS
+
+  + crearCategoria(String): void
+  + crearUbicacion(String): void
+  + crearObjeto(String, String, LocalDate, int,  int): void
+  + eliminarObjetoPorNombre(String): boolean
+  + guardarCategorias(): void
+  + guardarUbicaciones(): void
+  + guardarObjetos(): void
+  + cargarCategorias(): void
+  + cargarUbicaciones(): void
+  + cargarObjetos(): void
+  + buscarObjetosPorNombre(String): Objeto[]
+}
+
+
+class Objeto {
+  + int id
+  + String nombre
+  + String descripcion
+  + LocalDate fechaCompra
+  + int categoriaId
+  + int ubicacionId
+}
+
+class Categoria {
+  + int id
+  + String nombre
+}
+
+class Ubicacion {
+  + int id
+  + String nombre
+}
+
+InventarioMuseo --> Datos
+Datos --> Objeto
+Objeto --> Categoria
+Objeto --> Ubicacion
+@enduml

@@ -1,0 +1,20 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\alors\Downloads\final\Gestión-biblioteca-windowx64.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\alors\Downloads\final\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files\HP\HP One Agent;C:\Program Files\nodejs\;C:\Program Files\Perforce\;C:\Program Files\AutoFirma\AutoFirma;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\msys64\ucrt64\bin;C:\Users\alors\AppData\Local\Microsoft\WindowsApps;C:\Users\alors\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alors\AppData\Roaming\npm;C:\Program Files\Oracle\VirtualBox;C:\Program Files\MySQL\MySQL Server 9.1\bin;C:\Users\alors\AppData\Local\Microsoft\WindowsApps;C:\Users\alors\.dotnet\tools;C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin
+JRE paths:	;C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files\HP\HP One Agent;C:\Program Files\nodejs\;C:\Program Files\Perforce\;C:\Program Files\AutoFirma\AutoFirma;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\msys64\ucrt64\bin;C:\Users\alors\AppData\Local\Microsoft\WindowsApps;C:\Users\alors\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alors\AppData\Roaming\npm;C:\Program Files\Oracle\VirtualBox;C:\Program Files\MySQL\MySQL Server 9.1\bin;C:\Users\alors\AppData\Local\Microsoft\WindowsApps;C:\Users\alors\.dotnet\tools;C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin
+Check launcher:	C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin\javaw.exe (OK)
+Version string: 1.021.000_005 / 64-Bit (OK)
+Launcher:	C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin\javaw.exe
+Launcher args:	-jar "C:\Users\alors\Downloads\final\Gestión-biblioteca-windowx64.exe"
+Args length:	70/32768 chars
+Exit code:	0

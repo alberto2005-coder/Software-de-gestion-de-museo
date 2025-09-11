@@ -1,0 +1,23 @@
+@startuml DiagramaComponentes
+
+package "Interfaz de Usuario" {
+  [<<component>> InventarioGUI] as GUI
+}
+
+package "Lógica de Aplicación" {
+  [<<component>> ControladorInventario] as Controlador
+}
+
+package "Gestión de Datos" {
+  [<<component>> GestorDatos] as Datos
+}
+
+package "Modelo de Dominio" {
+  [<<component>> ModeloDominio] as Modelo
+}
+
+GUI --> Controlador : usa
+Controlador --> Datos : usa
+Datos --> Modelo : accede
+
+@enduml

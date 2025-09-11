@@ -1,0 +1,15 @@
+@startuml DiagramaNavegacion
+
+[*] --> VentanaPrincipal : iniciar aplicación
+
+state VentanaPrincipal {
+    [*] --> TablaObjetos
+
+    TablaObjetos --> DialogoObjeto : editarSeleccionado()
+    TablaObjetos --> DialogoObjeto : mostrarDialogo()
+    TablaObjetos --> [*] : cerrar aplicación
+}
+
+DialogoObjeto --> TablaObjetos : cerrar diálogo
+
+@enduml
