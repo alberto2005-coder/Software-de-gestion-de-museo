@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# Java / Maven
+# ---------------------------------------------------------------------------
+target/
+build/
+out/
+bin/
+*.class
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Documentación generada
+javadoc/
+site/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs y temporales
+*.log
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
